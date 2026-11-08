@@ -1,4 +1,4 @@
-"""MediaPipe 손 검출·추적 (담당: 송준섭 — 샘플 구현).
+"""
 
 MediaPipe 1.x 에는 예전 예제의 `mp.solutions.hands` 가 없고 Tasks API(`HandLandmarker`)를 씁니다.
 
