@@ -19,15 +19,12 @@ MediaPipe HandLandmarker로 웹캠 속 두 손을 인식해 유튜브를 제어�
 필요 환경: Windows 11, Python 3.14, 웹캠
 
 ```powershell
-git clone https://github.com/<계정>/gesture-control-demo.git
+git clone https://github.com/hayouncho/gesture-control-demo.git
 cd gesture-control-demo
 py -3.14 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe download_model.py
 ```
-
-- 비공개 저장소이므로 clone 전에 저장소 초대를 받아야 합니다.
-- `opencv-python`은 따로 설치하지 마세요 (mediapipe가 설치하는 OpenCV와 충돌).
 
 ## 실행
 
